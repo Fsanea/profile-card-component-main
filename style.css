@@ -1,0 +1,106 @@
+
+/*
+*{
+    outline: 1px solid red;
+}*/
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    background-size: auto;
+    background-image:url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg) ;
+    background-position: right 40vw bottom 40vh, left 20vw top 50vh;
+    background-repeat: no-repeat, no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 20.4em;
+    min-width: 20.4em;
+    max-height: 23.3em;
+    min-height: 23.3em;
+    background: white;
+    border: none;
+    border-radius: 1em;
+    background-image: url(./images/bg-pattern-card.svg);
+    width: 8.6em;
+    height: 8.6em;
+    background-repeat: no-repeat;
+}
+
+header{
+    margin-top:5em;
+}
+
+img{
+    width: auto;
+    height: auto;
+    border: none;
+    border: 0.4em solid white;
+    border-radius: 50%;
+    place-self: center;
+    background-color: white;
+}
+h1{
+    font-size: 18px;
+   text-align: center;
+   margin-bottom: 0;
+ 
+}
+span{
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 200;
+   
+}
+
+.line{
+    max-width: 20.4em;
+    min-width: 20.4em;
+    height: 0.3em;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    position: relative;
+    margin-bottom: 0;
+    }
+
+    .number{
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .figures{
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+        justify-content: center;
+    }
+    .FTxt{
+        font-size: 11px;
+        margin: 0;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    @media screen and (min-width:900px ){
+        body{
+            background-position: right 50vw bottom 40vh, left 45vw top 55vh;
+        }
+        
+    }
